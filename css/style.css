@@ -25,6 +25,10 @@ select {
   border: none;
 }
 
+.details {
+  width: 300px;
+}
+
 .pagenation {
   color:  #FFA500;
 }
