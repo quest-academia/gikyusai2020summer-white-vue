@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Quicksand:wght@600&display=swap" rel="stylesheet">   
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title></title>
+</head>
+<body>
+  <div class="header">
+      <div class="logo">
+          <div class="site-logo">
+            <h1><a href="#"><img src="img/oTosHi.png" width="150" height="50" alt="otoshiロゴ"></a></h1>
+          </div>
+      </div>
+      <div class="navigation">
+          <nav class="menu-navigation">
+            <ul>
+              <li><a href="#">ログイン</a></li>
+              <li>
+                <div class="header-logo-menu">
+                  <div id="nav-drawer">
+                      <input id="nav-input" type="checkbox" class="nav-unshown">
+                      <label id="nav-open" for="nav-input"><span></span></label>              
+                      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                      <div id="nav-content">
+                        <ul>
+                        <li><a href="#01">マイページ</a></li>
+                        <li><a href="#02">TOP</a></li>
+                        <li><a href="#02">レシピ一覧</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  </div>
+              </li>
+            </ul>
+          </nav>
+      </div>
+  </div>
+<!--↑ここまでヘッダー↑-->
+<!--ここに中身をいれる-->
+<div class="main">
+	<div class="ml-2">
+		<div class="ranking row pt-3">
+			<p class="ranking-title d-inline col-3">いいね獲得ランキング</p>
+			<div class="col-3">
+				<img src="img/king1.png" width="40px" alt="ランク1">
+				<p class="d-inline">○○△△</p>
+			</div>
+			<div class="col-3">
+				<img src="img/king2.png" width="40px" alt="ランク1">
+				<p class="d-inline">○○△△</p>
+			</div>
+			<div class="col-3">
+				<img src="img/king3.png" width="40px" alt="ランク1">
+				<p class="d-inline">○○△△</p>
+			</div>
+		</div>
+	</div>
+	<div class="card my-5 mx-3 border-white">
+		<div class="card-body">
+			<div class="row mb-3">
+				<div class="col-sm-6 text-center">
+					<label>お酒:</label>
+					<select>
+						<option>ビール</option>
+						<option>焼酎</option>
+						<option>ワイン</option>
+						<option>カクテル</option>
+					</select>
+				</div>
+				<div class="col-sm-6 text-center">
+					<label>時間:</label>
+					<select>
+						<option>秒</option>
+						<option>3分</option>
+						<option>5分</option>
+						<option>10分</option>
+					</select>
+				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-sm-6">
+					<img src="img/3416847_s.jpg" width="100%" alt="ベーコンアスパラ">
+				</div>
+				<div class="col-sm-6 mt-3 pl-4">
+					<p>アスパラベーコン巻き</p>
+					<p>○○△△</p>
+					<div class="row">
+						<div class="col-sm-4 mb-3">
+							<img src="img/good!.png" width="40px" alt="いいね">
+							<p class="d-inline">3</p>
+						</div>
+						<div class="col-sm-8">
+							<button class="challenge-button px-4">みんなの作ってみた</button>			
+						</div>
+					</div>
+				</div>
+				<div class="w-100 mt-5 text-center">
+					<a href="#" class="pagenation mb-0">＜ 1 2 3 ...  ＞</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--終了-->
+<!--↓ここからフッター↓ー-->
+<div class="footer">
+  <p>©QuestAcademia-Team White</p>
+</div>
+</body>
+</html>
