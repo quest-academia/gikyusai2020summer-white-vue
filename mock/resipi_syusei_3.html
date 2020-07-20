@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Quicksand:wght@600&display=swap"
+    rel="stylesheet">
+  <title></title>
+  <style type="text/css">
+    <!--
+    /*　『ファイルを開く』の「選択されていません」というメッセージを消す*/
+    @media screen {
+      #filename {
+        display: none;
+      }
+    }
+
+    /*ファイルを開くのファイル選択用ダイアログボックスを開くためのボタンを置く　*/
+    .browse_btn {
+      background-color: #d3d3d3;
+      padding: 6px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    /*『修正』の背景を黄緑・字を白*/
+    .green {
+      color: white;
+      background-color: #66FF99;
+    }
+    -->
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <div class="site-logo">
+        <h1><a href="#"><img src="img/oTosHi.png" width="150" height="50" alt="otoshiロゴ"></a></h1>
+      </div>
+    </div>
+    <div class="navigation">
+      <nav class="menu-navigation">
+        <ul>
+          <li><a href="#">ログイン</a></li>
+          <li>
+            <div class="header-logo-menu">
+              <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown">
+                <label id="nav-open" for="nav-input"><span></span></label>
+                <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                <div id="nav-content">
+                  <ul>
+                    <li><a href="#01">マイページ</a></li>
+                    <li><a href="#02">TOP</a></li>
+                    <li><a href="#02">レシピ一覧</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!--↑ここまでヘッダー↑-->
+
+  <!--ここに中身をいれる-->
+  ​<div class="main">
+    <div class="ml-2">
+      <div class="ranking row pt-3">
+        <p class="ranking-title d-inline col-3">いいね獲得ランキング</p>
+        <div class="col-3">
+          <img src="img/king1.png" width="40px" alt="ランク1">
+          <p class="d-inline">○○△△</p>
+        </div>
+        <div class="col-3">
+          <img src="img/king2.png" width="40px" alt="ランク1">
+          <p class="d-inline">○○△△</p>
+        </div>
+        <div class="col-3">
+          <img src="img/king3.png" width="40px" alt="ランク1">
+          <p class="d-inline">○○△△</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    ​
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 offset-md-1">
+          <h4>レシピの投稿</h4>
+        </div>
+        <div class="col-md-2">
+          <h1 class="green">修正</h1>
+        </div>
+        <div class="col-md-5">
+        </div>
+
+
+        <div class="col-md-4 offset-md-1">
+          <label for="name">料理名 <span class="badge badge-danger">必須</span></label>
+        </div>
+        <div class="col-md-7">
+        </div>
+
+        <div class="col-md-4 offset-md-1">
+          <input type="text" placeholder="例　チンジャーロース">
+          <label for="name"><span class=>　　</span></label>
+        </div>
+
+        <div class="col-md-7">
+        </div>
+
+        <div class="col-md-11 offset-md-1">
+          <div class="form-group">
+            <label for="name">合うお酒 <span class="badge badge-danger">必須</span></label>
+            <div>
+              <label class="radio">
+                <input type="radio" name="q2" value="1">秒　
+              </label>
+              <label class="radio">
+                <input type="radio" name="q2" value="1">３分　
+              </label>
+              <label class="radio">
+                <input type="radio" name="q2" value="1">5分　
+              </label>
+              <label class="radio">
+                <input type="radio" name="q2" value="1">10分　
+              </label>
+              　</div>
+          </div>
+        </div>
+
+        <div class="col-md-11 offset-md-1">
+          <div class="form-group">
+            <label for="name">合うお酒 <span class="badge badge-danger">必須</span></label>
+            <div>
+              <label class="radio">
+                <input type="radio" name="q2" value="1">ビール
+              </label>
+              <label class="radio">
+                <input type="radio" name="q2" value="2">焼酎
+              </label>
+              <label class="radio">
+                <input type="radio" name="q2" value="3">ワイン　
+              </label>
+              <label class="radio">
+                <input type="radio" name="q2" value="4">カクテル
+              </label>
+              <label class="radio"></label>
+                <input type="radio" name="q2" value="5">その他
+              </label>
+              　</div>
+          </div>
+        </div>
+
+        <div class="col-md-11 offset-md-1">
+          <label for="name">材料と分類 <span class="badge badge-danger">必須</span></label>
+        </div>
+
+        <div class="col-md-3 offset-md-1">
+          <label for="count">1.　</label>
+          <input type="text" placeholder="例　ピーマン">
+        </div>
+        <div class="col-md-8">
+          <input type="text" placeholder="例　3個">
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <label for="count">2.　</label>
+          <input type="text" placeholder="">
+        </div>
+
+        <div class="col-md-8">
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <label for="count">3.　</label>
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-8">
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <label for="count">4.　</label>
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-8">
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <label for="count">5.　</label>
+          <input type="text" placeholder="">　
+        </div>
+        <div class="col-md-8">
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <label for="count">6.　</label>
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-8">
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <label for="count">7.　</label>
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-8">
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <label for="count">8.　</label>
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-8">
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <label for="count">9.　</label>
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-8">
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <label for="count">10.　 </label>
+          <input type="text" placeholder="">
+        </div>
+        <div class="col-md-8">
+          <input type="text" placeholder="">
+        </div>
+
+        <div class="col-md-11 offset-md-1">
+          <label for="textarea1">書ききれない場合はこちらに記入してください</label>
+        </div>
+        <div class="col-md-11 offset-md-1">
+          <textarea id="textarea1" rows="5" cols="55"></textarea>
+        </div>
+
+        <div class="col-md-6 offset-md-1">
+          <label for="name">料理の作り方 <span class="badge badge-danger">必須</span></label>
+        </div>
+        <div class="col-md-5">
+          <p>※写真は必須ではありません</p>
+        </div>
+
+        
+        <div class="col-md-6 offset-md-1">
+          <label for="count">1.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <label for="count">2.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <label for="count">3.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <label for="count">4.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <label for="count">5.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <label for="count">6.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <label for="count">7.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <label for="count">8.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <label for="count">9.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <label for="count">10.　</label>
+          <input type="text" size="52 name=" text1">
+        </div>
+        <div class="col-md-5">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+
+        <div class="col-md-11 offset-md-1">
+          <label for="textarea1">書ききれない場合はこちらに記入してください</label>
+        </div>
+        <div class="col-md-11 offset-md-1">
+          <textarea id="textarea1" rows="5" cols="55"></textarea>
+        </div>
+
+        <div class="col-md-11 offset-md-1">
+          <label for="name">料理の完成写真 <span class="badge badge-danger">必須</span></label>
+        </div>
+
+        <div class="col-md-11 offset-md-1">
+          <label for="filename">
+            　<span class="browse_btn">ファイルを選択</span><input type="file" size="16" id="filename">
+          </label>
+        </div>
+
+        <div class="col-md-11 offset-md-1">
+          <label for="name">お名前 <span class="badge badge-danger">必須</span></label>
+        </div>
+        <div class="col-md-11 offset-md-1">
+          <input type="text" placeholder="例　山田　太郎">
+          <label for="name"><span class=>　　</span></label>
+        </div>
+      </div>
+    </div>
+    <div class="parent">
+      <button type="submit">送信する</button>
+    </div>
+
+    <!--終了-->
+    <!--↓ここからフッター↓ー-->
+    <div class="footer">
+      <p>©QuestAcademia-Team White</p>
+    </div>
+</body>
+</html>
