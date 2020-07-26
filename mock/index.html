@@ -1,45 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Quicksand:wght@600&display=swap"
+    rel="stylesheet">
+  <title></title>
+  <style type="text/css">
+    <!--
+    -->
+  </style>
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-        <div class="container">
-            <div class="row">
-                <div class="paise col-md-3">
-                    <p >登録情報</p>
-                    <p>ニックネームを変更する</p>
-                　　 <p>パスワードを変更する</p>
-                    <p>〇〇△△</p>
-                    <p>パスワードを変更する</p>
+<body>
+  <div class="header">
+    <div class="logo">
+      <div class="site-logo">
+        <h1><a href="#"><img src="img/oTosHi.png" width="150" height="50" alt="otoshiロゴ"></a></h1>
+      </div>
+    </div>
+    <div class="navigation">
+      <nav class="menu-navigation">
+        <ul>
+          <li><a href="#">ログイン</a></li>
+          <li>
+            <div class="header-logo-menu">
+              <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown">
+                <label id="nav-open" for="nav-input"><span></span></label>
+                <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                <div id="nav-content">
+                  <ul>
+                    <li><a href="#01">マイページ</a></li>
+                    <li><a href="#02">TOP</a></li>
+                    <li><a href="#02">レシピ一覧</a></li>
+                  </ul>
                 </div>
+              </div>
 
-                <div class=" col-sm-8">
-                    <p>〇〇△△が投稿したリスト</p>
-                    <p><img src="asuparagasu.png" alt="">アスパラベーコン巻き〇〇△△
-                    〇〇△△</p>
-                    <p>アスパラベーコン巻き〇〇△△</p>
-                    投稿リスト一覧
-                    <p>いいねリスト</p>
-                    <p><img src="asuparagasu.png" alt=""></p>
-                    いいねリスト一覧
-                </div>
-             </div>
-        </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!--↑ここまでヘッダー↑-->
+  ​
+  <!--ここに中身をいれる-->
+  ​<div class="container">
+    <div class="row">
+      <div class="paise col-md-2">
+        <p>登録情報</p>
+        <p>ニックネームを変更する</p>
+        　　 <p>パスワードを変更する</p>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+
+
+        <p>〇〇△△</p>
+        <p>パスワードを変更する</p>
+      </div>
+
+      <div class=" col-sm-10">
+        <p>〇〇△△が投稿したリスト</p>
+        <p><img src="img/3416847_s.jpg" alt="">アスパラベーコン巻き〇〇△△</p>
+        <a href="#" class="btn btn-outline-primary">投稿リスト一覧</a>
+        <p>いいねリスト</p>
+        <p><img src="img/3416847_s.jpg" alt="">アスパラベーコン巻き〇〇△△</p>
+        <a href="#" class="btn btn-outline-primary">いいねリスト一覧</a>
+      </div>
+    </div>
+  </div>
+  ​
+  <!--終了-->
+  ​
+  <!--↓ここからフッター↓ー-->
+  <div class="footer">
+    <p>©QuestAcademia-Team White</p>
+  </div>
+</body>
 </html>
