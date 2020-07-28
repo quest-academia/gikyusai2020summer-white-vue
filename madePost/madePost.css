@@ -5,7 +5,15 @@ html{
 .container{
   color: #5d5d5d;
 }
-
+/* 修正ページ用 */
+.edit{
+  background-color: #F5F3F4;
+}
+.editbutton{
+  color: #fff;
+  background-color: #C6F281; 
+}
+/* ///// */
 button{
   background-color: #C6F281; 
   color: #fff; 
