@@ -26,6 +26,11 @@
   padding: 0 20%;
 }
 
+.resipe_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .resipe_detail_image {
   width: 90%;
 }
@@ -49,6 +54,30 @@
   font-family: 'Kosugi Maru', sans-serif;
   border: none;
   margin: 0 5%;
+}
+
+.process_bar {
+  background-color: #FFD41F;
+  text-align: center;
+  width: 60%;
+  padding: 4px 14px;
+  border-radius: 25px;
+  font-family: 'Kosugi Maru', sans-serif;
+  border: none;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.material_content {
+  border-bottom: solid 3px #E5E5E5;
+}
+
+.material_name {
+  font-size: 18px;
+}
+
+.material_amount {
+  margin-right: 5%;
 }
 
 .everyone_resipe {
