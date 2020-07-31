@@ -23,10 +23,11 @@
   background-color: #fff;
   border: solid 4px #FEEDB5;
   border-radius: 35px;
+  padding: 0 20%;
 }
 
 .resipe_detail_image {
-  width: 50%;
+  width: 90%;
 }
 
 .everyone_resipe {
@@ -35,6 +36,6 @@
   border-radius: 35px;
 }
 
-.other_image {
+.everyone_resipe_image {
   width: 80%;
 }
