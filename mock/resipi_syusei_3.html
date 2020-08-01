@@ -37,6 +37,22 @@
   border-bottom: solid 10px;
   border-color:  #FFA500;
 }
+
+.ranking {
+  border-bottom: solid 10px;
+  border-color:  #FFA500;
+}
+
+@media screen and (max-width: 480px) {
+  .input_left {
+    margin-left: 0%;
+}
+
+.browse_btn {
+    padding: 1px 15px !important;
+}
+}
+
     -->
   </style>
 </head>
@@ -122,36 +138,36 @@
 
         <div class="col-md-11 offset-md-1">
           <div class="form-group">
-            <label for="name">合うお酒 <span class="badge badge-danger">必須</span></label>
-            <div>
-              <label class="radio">
-                <input type="radio" name="q2" value="1">秒　
-              </label>
-              <label class="radio">
-                <input type="radio" name="q2" value="2">３分　
-              </label>
-              <label class="radio">
-                <input type="radio" name="q2" value="3">5分　
-              </label>
-              <label class="radio">
-                <input type="radio" name="q2" value="4">10分　
-              </label>
-              　</div>
-          </div>
+              <label for="name">調理時間 <span class="badge badge-danger">必須</span></label>
+              <div>
+                <label class="radio">
+                  <input type="radio" name="q2" value="1">秒
+                </label>
+                <label class="radio">
+                  <input type="radio" name="q2" value="2">３分
+                </label>
+                <label class="radio">
+                  <input type="radio" name="q2" value="3">5分
+                </label>
+                <label class="radio">
+                  <input type="radio" name="q2" value="4">10分
+          </label>
         </div>
+      </div>
+    </div>
 
         <div class="col-md-11 offset-md-1">
           <div class="form-group">
             <label for="name">合うお酒 <span class="badge badge-danger">必須</span></label>
             <div>
               <label class="radio">
-                <input type="radio" name="q2" value="5">ビール　
+                <input type="radio" name="q2" value="5">ビール
               </label>
               <label class="radio">
                 <input type="radio" name="q2" value="6">焼酎
               </label>
               <label class="radio">
-                <input type="radio" name="q2" value="7">ワイン　
+                <input type="radio" name="q2" value="7">ワイン
               </label>
               <label class="radio">
                 <input type="radio" name="q2" value="8">カクテル
@@ -169,25 +185,25 @@
 
         <div class="col-md-11 offset-md-1">
           <ol>
-            <li class="li_right"><input type="text" placeholder="例　ピーマン"><label class="left_label"
+            <li class="li_right"><input class="input_left" type="text" placeholder="例　ピーマン"><label class="left_label"
                 for="count"></label><input type="text" placeholder="例　3個"></li>
-            <li class="li_right"><input type="text" placeholder=""><label class="left_label" for="count"></label><input
+            <li class="li_right"><input class="input_left" type="text" placeholder=""><label class="left_label" for="count"></label><input
                 type="text" placeholder=""></li>
-            <li class="li_right"><input type="text" placeholder=""><label class="left_label" for="count"></label><input
+            <li class="li_right"><input class="input_left" type="text" placeholder=""><label class="left_label" for="count"></label><input
                 type="text" placeholder=""></li>
-            <li class="li_right"><input type="text" placeholder=""><label class="left_label" for="count"></label><input
+            <li class="li_right"><input class="input_left" type="text" placeholder=""><label class="left_label" for="count"></label><input
                 type="text" placeholder=""></li>
-            <li class="li_right"><input type="text" placeholder=""><label class="left_label" for="count"></label><input
+            <li class="li_right"><input class="input_left" type="text" placeholder=""><label class="left_label" for="count"></label><input
                 type="text" placeholder=""></li>
-            <li class="li_right"><input type="text" placeholder=""><label class="left_label" for="count"></label><input
+            <li class="li_right"><input class="input_left" type="text" placeholder=""><label class="left_label" for="count"></label><input
                 type="text" placeholder=""></li>
-            <li class="li_right"><input type="text" placeholder=""><label class="left_label" for="count"></label><input
+            <li class="li_right"><input class="input_left" type="text" placeholder=""><label class="left_label" for="count"></label><input
                 type="text" placeholder=""></li>
-            <li class="li_right"><input type="text" placeholder=""><label class="left_label" for="count"></label><input
+            <li class="li_right"><input class="input_left" type="text" placeholder=""><label class="left_label" for="count"></label><input
                 type="text" placeholder=""></li>
-            <li class="li_right"><input type="text" placeholder=""><label class="left_label" for="count"></label><input
+            <li class="li_right"><input class="input_left" type="text" placeholder=""><label class="left_label" for="count"></label><input
                 type="text" placeholder=""></li>
-            <li class="li_right"><input type="text" placeholder=""><label class="left_label" for="count"></label><input
+            <li class="li_right"><input class="input_left" type="text" placeholder=""><label class="left_label" for="count"></label><input
                 type="text" placeholder=""></li>
           </ol>
         </div>
@@ -208,34 +224,34 @@
 
         <div class="col-md-11 offset-md-1">
           <ol>
-            <li><label class="left_label1" for="count"></label><input class="waku1"  type="text" size="52 name=" text5"><label
+            <li><label class="left_label1" for="count"></label><input class="waku1 input_left"  type="text" size="52 name=" text5"><label
                 class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
                   size="16" id="filename"></label></li>
-            <li><label class="left_label1" for="count"></label><input class="waku1" type="text" size="52 name=" text5"><label
+            <li><label class="left_label1" for="count"></label><input class="waku1 input_left" type="text" size="52 name=" text5"><label
                 class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
                   size="16" id="filename"></label></li>
-            <li><label class="left_label1" for="count"></label><input class="waku1" type="text" size="52 name=" text6"><label
+            <li><label class="left_label1" for="count"></label><input class="waku1 input_left" type="text" size="52 name=" text6"><label
+                class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
+                          size="16" id="filename"></label></li>
+                    <li><label class="left_label1" for="count"></label><input class="waku1 input_left" type="text" size="52 name=" text7"><label
+                        class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
+                          size="16" id="filename"></label></li>
+                        <li><label class="left_label1" for="count"></label><input class="waku1 input_left" type="text" size="52 name=" text8"><label
+                            class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
+                              size="16" id="filename"></label></li>
+                        <li><label class="left_label1" for="count"></label><input class="waku1 input_left" type="text" size="52 name=" text9"><label
+                            class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
+                              size="16" id="filename"></label></li>
+                        <li><label class="left_label1" for="count"></label><input class="waku1 input_left" type="text" size="52 name=" text10"><label
+                            class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
+                              size="16" id="filename"></label></li>
+                        <li><label class="left_label1" for="count"></label><input class="waku1 input_left" type="text" size="52 name=" text10"><label
+                            class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
+                      size="16" id="filename"></label></li>
+            <li><label class="left_label1" for="count"></label><input class="waku1 input_left" type="text" size="52 name=" text5"><label
                 class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
                   size="16" id="filename"></label></li>
-            <li><label class="left_label1" for="count"></label><input class="waku1" type="text" size="52 name=" text7"><label
-                class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
-                  size="16" id="filename"></label></li>
-            <li><label class="left_label1" for="count"></label><input class="waku1" type="text" size="52 name=" text8"><label
-                class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
-                  size="16" id="filename"></label></li>
-            <li><label class="left_label1" for="count"></label><input class="waku1" type="text" size="52 name=" text9"><label
-                class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
-                  size="16" id="filename"></label></li>
-            <li><label class="left_label1" for="count"></label><input class="waku1" type="text" size="52 name=" text10"><label
-                class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
-                  size="16" id="filename"></label></li>
-            <li><label class="left_label1" for="count"></label><input class="waku1" type="text" size="52 name=" text10"><label
-                class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
-                  size="16" id="filename"></label></li>
-            <li><label class="left_label1" for="count"></label><input class="waku1" type="text" size="52 name=" text5"><label
-                class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
-                  size="16" id="filename"></label></li>
-            <li><label class="left_label1" for="count"></label><input class="waku1" type="text" size="52 name=" text5"><label
+            <li><label class="left_label1" for="count"></label><input class="waku1 input_left" type="text" size="52 name=" text5"><label
                 class="right_label" for="filename"><span class="browse_btn btn-left">ファイルを選択</span><input type="file"
                   size="16" id="filename"></label></li>
           </ol>
