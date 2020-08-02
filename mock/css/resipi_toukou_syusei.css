@@ -1,0 +1,40 @@
+/*　『ファイルを開く』の「選択されていません」というメッセージを消す*/
+@media screen {
+    #filename {
+        display: none;
+    }
+}
+
+/*ファイルを開くのファイル選択用ダイアログボックスを開くためのボタンを置く　*/
+.browse_btn {
+    background-color: #d3d3d3;
+    padding: 6px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/*『修正』の背景を黄緑・字を白*/
+.green {
+    color: white;
+    background-color: #66ff99;
+}
+
+.ranking {
+    border-bottom: solid 10px;
+    border-color: #ffa500;
+}
+
+.ranking {
+    border-bottom: solid 10px;
+    border-color: #ffa500;
+}
+
+@media screen and (max-width: 480px) {
+    .input_left {
+        margin-left: 0%;
+    }
+
+    .browse_btn {
+        padding: 1px 15px !important;
+    }
+}

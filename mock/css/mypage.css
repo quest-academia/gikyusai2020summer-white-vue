@@ -149,23 +149,23 @@ body{
     box-shadow: 6px 0 25px rgba(0,0,0,.15);
   }
   ​
-  .header-logo-menu{
-   display: flex;
-   display: -moz-flex;
-   display: -o-flex;
-   display: -webkit-flex;
-   display: -ms-flex;
-   flex-direction: row;
-   -moz-flex-direction: row;
-   -o-flex-direction: row;
-   -webkit-flex-direction: row;
-   -ms-flex-direction: row;
-  }
+.header-logo-menu{
+  display: flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  flex-direction: row;
+  -moz-flex-direction: row;
+  -o-flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+}
   ​
   #nav-content li{
   clear: both;
-  ​
   }
+
   #nav-content li a{
   border-style: none;
   width: 200px;
@@ -204,3 +204,66 @@ body{
     color:#fff;
     font-family: 'Quicksand', sans-serif;
   }
+
+.background-color{
+  background-color: #fcfcdd!important;
+}
+
+img{
+  max-width:100%;
+  height: auto;
+}
+
+.repsipe_details {
+  background-color: #fff;
+  border: solid 4px #FEEDB5;
+  border-radius: 35px;
+}
+
+.everyone_resipe {
+  background-color: #fff;
+  border: solid 4px #FEEDB5;
+  border-radius: 35px;
+}
+
+.wrapper {
+  margin-top:5%;
+
+}
+
+button {
+  background-color: #c6f281;
+    color: #5d5d5d;
+    margin: 0 auto;
+    width: 100px;
+    padding: 2px;
+    border-radius: 25px;
+    font-family: "Kosugi Maru", sans-serif;
+}
+
+.inline{
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.padding-top {
+  padding-top: 7%;
+  font-weight: bold;
+}
+
+.padding_left2 {
+  margin-left:20px;
+}
+
+@media screen and (max-width: 480px) {
+  .padding_left1 {
+    padding-left:6%;
+  }
+
+  .padding_left2 {
+    margin-left:0px;
+  }
+}
