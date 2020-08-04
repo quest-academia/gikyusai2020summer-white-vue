@@ -38,3 +38,80 @@
         padding: 1px 15px !important;
     }
 }
+
+
+.parent {
+  text-align: center;
+}
+
+table {
+  margin-left: 18%;
+}
+
+.left {
+  padding-left: 8%;
+}
+
+.left_label {
+  margin-right: 7%;
+}
+
+.ol {
+  margin-left: 0px;
+}
+
+.btn-left {
+  margin-left: 20px;
+}
+
+.right_label {
+  margin-right: 100px;
+}
+
+.padding {
+  padding-left: 5%;
+}
+
+.browse_btn {
+  padding: 6px 30px !important;
+  border-radius: 20px !important;
+}
+
+li {
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 480px) {
+  .waku1 {
+      width: 60%;
+  }
+  #textarea1 {
+      width: 80%;
+  }
+  .right_label {
+      margin-right: 30px;
+  }
+  .btn-left {
+      margin-left: 5px;
+      padding-top: 15px;
+  }
+  .left-lavel1 {
+      margin-bottom: 10px;
+      display: block;
+  }
+  button {
+      padding: 7px !important;
+  }
+}
+
+.container {
+  background-color: #fff;
+}
+
+.input_left {
+  margin-left: 1%;
+}
+
+#textarea1 {
+margin-left:4%;
+}
