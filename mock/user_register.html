@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ユーザー登録ページ１</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/user_register.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <!--↓ここからヘッダー↓-->
+  <body>
+    <div class="header">
+      <div class="logo">
+        <div class="site-logo">
+          <h1>
+            <a href="#"
+              ><img
+                src="img/oTosHi.png"
+                width="150"
+                height="50"
+                alt="otoshiロゴ"
+            /></a>
+          </h1>
+        </div>
+      </div>
+      <div class="navigation">
+        <nav class="menu-navigation">
+          <ul>
+            <li><a href="#">ログイン</a></li>
+            <li>
+              <div class="header-logo-menu">
+                <div id="nav-drawer">
+                  <input id="nav-input" type="checkbox" class="nav-unshown" />
+                  <label id="nav-open" for="nav-input"><span></span></label>
+                  <label
+                    class="nav-unshown"
+                    id="nav-close"
+                    for="nav-input"
+                  ></label>
+                  <div id="nav-content">
+                    <ul>
+                      <li><a href="#01">マイページ</a></li>
+                      <li><a href="#02">TOP</a></li>
+                      <li><a href="#02">レシピ一覧</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!--↑ここまでヘッダー↑-->
+
+    <!--ここに中身をいれる-->
+  <div class="wrapper">
+    <div class="container">
+          <div class="row mb-3 text-center">
+            <div class="offset-md-3 col-sm-6">
+              <form action="" method="POST">
+                <h3>ユーザー登録する</h3>
+              </form>
+
+
+              <form>
+                <div class="form-group">
+                  <div class="text-left">
+                    <label for=" exampleInputEmail1 ">メールアドレス</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder=""
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="text-left">
+                    <label for="validationUsername1">ユーザーネーム</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationUsername1"
+                      placeholder=""
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="text-left">
+                    <label for="exampleInputPassword1">パスワード</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      placeholder=""
+                    />
+                  </div>
+                </div>
+              </form>
+
+              <button type="submit">登録する</button>
+            </div>
+        </div>
+      </div>
+
+    <!--終了-->
+    <!--↓ここからフッター↓ー-->
+    <div class="footer">
+      <p>©QuestAcademia-Team White</p>
+    </div>
+  </div>
+  </body>
+</html>
