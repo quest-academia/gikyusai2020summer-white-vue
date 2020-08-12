@@ -56,7 +56,7 @@
   margin: 0 5%;
 }
 
-.process_bar {
+.content_bar {
   background-color: #FFD41F;
   text-align: center;
   width: 60%;
@@ -78,6 +78,14 @@
 
 .material_amount {
   margin-right: 5%;
+}
+
+.process_img {
+  width: 50px;
+}
+
+.process_content {
+  font-size: 18px;
 }
 
 .everyone_resipe {
