@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/resipe_show.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Quicksand:wght@600&display=swap"
+    rel="stylesheet">
+  <title></title>
+  <style type="text/css">
+
+    /*　『ファイルを開く』の「選択されていません」というメッセージを消す*/
+    @media screen {
+      #filename {
+        display: none;
+      }
+    }
+
+    /*ファイルを開くのファイル選択用ダイアログボックスを開くためのボタンを置く　*/
+    .browse_btn {
+      background-color: #d3d3d3;
+      padding: 6px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    /*『修正』の背景を黄緑・字を白*/
+    .green {
+      color: white;
+      background-color: #66FF99;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <div class="site-logo">
+        <h1><a href="#"><img src="img/oTosHi.png" width="150" height="50" alt="otoshiロゴ"></a></h1>
+      </div>
+    </div>
+    <div class="navigation">
+      <nav class="menu-navigation">
+        <ul>
+          <li><a href="#">ログイン</a></li>
+          <li>
+            <div class="header-logo-menu">
+              <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown">
+                <label id="nav-open" for="nav-input"><span></span></label>
+                <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                <div id="nav-content">
+                  <ul>
+                    <li><a href="#01">マイページ</a></li>
+                    <li><a href="#02">TOP</a></li>
+                    <li><a href="#02">レシピ一覧</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!--↑ここまでヘッダー↑-->
+
+  <!--ここに中身をいれる-->
+  <div class="search_area">
+    <form class="row align-items-center">
+      <input type="text" class="search_form form-control col-3 offset-4 rounded-5 mt-1">
+      <span class="ml-3">
+        <button type="button" class="search_button mt-1 py-2">検索</button>
+      </span>
+    </form>
+  </div>
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-sm-8">
+        <div class="repsipe_details mb-5">
+
+          <p class="resipe_title pt-4 mt-3 ml-4">アスパラのベーコン巻き</p>
+          <div class="text-center">
+            <img class="resipe_detail_image mb-5" src="img/3416847_s.jpg" alt="アスパラのベーコン巻き">
+          </div>
+          <div class="text-center mb-5">
+            <span>
+              <img class="cooking_time_icon" src="img/time1.png" alt="調理時間">
+            </span>
+            <span>
+              <img class="liquor_icon" src="img/アセット 64.png" alt="合うお酒">
+            </span>
+            <span>
+              <button type="button" class="create_button mt-1 py-2">投稿</button>
+            </span>
+          </div>
+          <div class="mb-5">
+            <p class="content_bar">材料</p>
+            <div class="material_content mt-4 pb-2 d-flex justify-content-between">
+              <span class="material_name">アスパラ</span>
+              <span class="material_amount">５本</span>
+            </div>
+            <div class="material_content mt-4 pb-2 d-flex justify-content-between">
+              <span class="material_name">ベーコン</span>
+              <span class="material_amount">５枚</span>
+            </div>
+            <div class="material_content mt-4 pb-2 d-flex justify-content-between">
+              <span class="material_name">こしょう</span>
+              <span class="material_amount">少々</span>
+            </div>
+          </div>
+          <div class="mb-5">
+            <p class="content_bar">つくり方</p>
+            <div class="process_content align-items-center mt-4 pb-2 d-flex">
+              <img class="process_img mr-4" src="./img/1.png">
+              <span class="process_content">アスパラを半分に切る</span>
+              <img src="" alt="画像">
+            </div>
+            <div class="process_content align-items-center mt-4 pb-2 d-flex">
+              <img class="process_img mr-4" src="./img/2.png">
+              <span class="process_content">アスパラを茹でて、ベーコンを巻いて焼く</span>
+              <img src="" alt="画像">
+            </div>
+            <div class="process_content align-items-center mt-4 pb-2 d-flex">
+              <img class="process_img mr-4" src="./img/3.png">
+              <span class="process_content">こしょうを降って出来上がり</span>
+              <img src="" alt="画像">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="everyone_resipe text-center pt-5">
+          <p class="everyone_resipe_title" >みんなの作ってみた</p>
+          <img class="everyone_resipe_image" src="img/3416847_s.jpg" alt="アスパラのベーコン巻き">
+          <p class="contributor_name">投稿者名</p>
+          <img class="everyone_resipe_image" src="img/3416847_s.jpg" alt="アスパラのベーコン巻き">
+          <p class="contributor_name">投稿者名</p>
+          <img class="everyone_resipe_image" src="img/3416847_s.jpg" alt="アスパラのベーコン巻き">
+          <p class="contributor_name">投稿者名</p>
+          <p class="text-right mr-3" style="color:#CDCFE3;">さらに表示</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--終了-->
+  <!--↓ここからフッター↓ー-->
+  <div class="footer">
+    <p>©QuestAcademia-Team White</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+.search_area {
+  background-color: #FFD41F;
+  height: 50px;
+}
+
+.search_form {
+  border: solid 4px #E2B840;
+  border-radius: 25px;
+}
+
+.search_button {
+  background-color: #FF8341;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  padding: 14px;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.repsipe_details {
+  background-color: #fff;
+  border: 5px solid #F2D986;
+  border-radius: 35px;
+  padding: 0 20%;
+}
+
+.resipe_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.resipe_detail_image {
+  width: 90%;
+}
+
+.cooking_time_icon {
+  width: 10%;
+  margin: 0 10%;
+}
+
+.liquor_icon {
+  width: 10%;
+  margin: 0 10%;
+}
+
+.create_button {
+  background-color: #A0FBBB;
+  text-align: center;
+  width: 100px;
+  padding: 14px;
+  border-radius: 25px;
+  font-family: 'Kosugi Maru', sans-serif;
+  border: none;
+  margin: 0 5%;
+}
+
+.content_bar {
+  background-color: #FFD41F;
+  text-align: center;
+  width: 60%;
+  padding: 4px 14px;
+  border-radius: 25px;
+  font-family: 'Kosugi Maru', sans-serif;
+  border: none;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.material_content {
+  border-bottom: solid 3px #E5E5E5;
+}
+
+.material_name {
+  font-size: 18px;
+}
+
+.material_amount {
+  margin-right: 5%;
+}
+
+.process_img {
+  width: 50px;
+}
+
+.process_content {
+  font-size: 18px;
+}
+
+.everyone_resipe {
+  background-color: #fff;
+  border: 5px solid #F2D986;
+  border-radius: 35px;
+}
+
+.everyone_resipe_title {
+  font-weight: bold;
+}
+
+.everyone_resipe_image {
+  width: 80%;
+}
+
+.contributor_name {
+  text-align: left;
+  margin: 20px 0 20px 30px;
+}
