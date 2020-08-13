@@ -21,7 +21,7 @@
 
 .repsipe_details {
   background-color: #fff;
-  border: solid 4px #FEEDB5;
+  border: 5px solid #F2D986;
   border-radius: 35px;
   padding: 0 20%;
 }
@@ -90,10 +90,19 @@
 
 .everyone_resipe {
   background-color: #fff;
-  border: solid 4px #FEEDB5;
+  border: 5px solid #F2D986;
   border-radius: 35px;
+}
+
+.everyone_resipe_title {
+  font-weight: bold;
 }
 
 .everyone_resipe_image {
   width: 80%;
+}
+
+.contributor_name {
+  text-align: left;
+  margin: 20px 0 20px 30px;
 }
